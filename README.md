@@ -2,4 +2,4 @@
 
 | TITLE  |     CODE          | LIVE DEMO |
 | ------------- | -----------| ------    |
-| Responsive_website |[Code](nft-preview-card) | [Live Project](https://1st-project-responsive-website.netlify.app/)  |
+| Responsive_website |[Code](1st_website_(responsive)) | [Live Project](https://1st-project-responsive-website.netlify.app/)  |
