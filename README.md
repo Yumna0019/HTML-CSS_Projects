@@ -1,8 +1,8 @@
 # HTML-CSS_Projects
 
-| TITLE  |     CODE          | LIVE DEMO |
+| #  |     Projects          | LIVE DEMO |
 | ------------- | -----------| ------    |
-| 1st website (Responsive) |[Code](1st_website_(responsive)) | [Demo](https://responsive-website-001.netlify.app/)  |
-| CSS Card Hover Effect (Responsive) |[Code](CSS_Card-Hover_Effect) | [Demo](https://css-cards-hover-effect.netlify.app/)  |
-| Login Form (Responsive) |[Code](Login_form) | [Demo](https://log-in-form-01.netlify.app/)  |
-| CSS Card Hover Effect 2 (Responsive) |[Code](CSS_Card_Hover_Effect-2) | [Demo](https://css-cards-hover-effect-02.netlify.app/)  |
+| 01 |[1st website (Responsive)](1st_website_(responsive)) | [Live Demo](https://responsive-website-001.netlify.app/)  |
+| 02 |[CSS Card Hover Effect (Responsive)](CSS_Card-Hover_Effect) | [Live Demo](https://css-cards-hover-effect.netlify.app/)  |
+| 03 |[Login Form (Responsive)](Login_form) | [Live Demo](https://log-in-form-01.netlify.app/)  |
+| 04 |[CSS Card Hover Effect 2 (Responsive)](CSS_Card_Hover_Effect-2) | [Live Demo](https://css-cards-hover-effect-02.netlify.app/)  |
