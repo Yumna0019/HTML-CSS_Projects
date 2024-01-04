@@ -1,7 +1,7 @@
 # HTML-CSS_Projects
 Some of the projects was made by using these resources:
-- [Frontend Mentor](https://www.frontendmentor.io/)
 - [FreeFrontend](https://freefrontend.com/)
+- [Frontend Mentor](https://www.frontendmentor.io/)
 
 
 | #  |     Projects          | LIVE DEMO |
