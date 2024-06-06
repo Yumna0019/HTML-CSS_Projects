@@ -1,0 +1,188 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../image/backgroung_img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.form-box {
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    width: 400px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+}
+
+.input-box {
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+}
+
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1rem;
+    pointer-events: none;
+    transition: all ease-in-out 0.5s;
+}
+
+.input-box:hover label {
+    top: -5px;
+}
+
+input:focus~label,
+input:valid~label {
+    top: -5px;
+}
+
+.input-box input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 0 35px 0 5px;
+    color: #fff;
+}
+
+.input-box ion-icon {
+    position: absolute;
+    right: 8px;
+    font-size: 1rem;
+    top: 20px;
+}
+
+.forget-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.forget {
+    margin: -15px 0 15px;
+    font-size: .9rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forget label {
+    margin-left: 3px;
+}
+
+.forget label input {
+    margin-right: 3px;
+}
+
+.forget a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: auto;
+}
+
+.forget a:hover {
+    text-decoration: underline;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    border-radius: 48px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: #772747;
+    color: #fff;
+    transition: all ease-in-out 0.2s;
+
+}
+
+.register {
+    color: #fff;
+    text-decoration: none;
+    font-size: .9rem;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+
+.register p a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.register p a:hover {
+    text-decoration: underline;
+}
+
+input[type='checkbox']:checked {
+    accent-color: #772747;
+}
+
+@media only screen and (max-width: 600px) {
+
+    body,
+    html {
+        overflow: hidden;
+    }
+
+    .form-box {
+        width: calc(100% - 40px);
+        max-width: 80%;
+    }
+
+    .input-box {
+        width: 100%;
+    }
+
+    .forget-container {
+        justify-content: center;
+    }
+
+    .forget a {
+        margin-left: 0px;
+        margin-top: 50px;
+        margin-right: 20px;
+    }
+
+    button {
+        margin-top: 10px;
+    }
+
+    .register {
+        margin-top: 20px;
+    }
+
+}
