@@ -12,4 +12,3 @@ Some of the projects was made by using these resources:
 | 04 |[Login Form (Responsive)](Login_form) | [Live Demo](https://login-form-001.netlify.app/)  |
 | 05 |[QR Code Card](QR-Code) | [Live Demo](https://qr-code-proj.netlify.app/)  |
 | 06 |[Stats Preview Card](Stats_Preview_Card) | [Live Demo](https://stats-preview-card-proj.netlify.app/)  |
-| 00 |[]() | [Live Demo]()  |
